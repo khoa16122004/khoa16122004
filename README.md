@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Khoa Tran Nhat</h1>
-<h3 align="center">I am a CS student and on the way to become a AI reseacher</h3>
+<h3 align="center">I am a CS student and on the way to become a AI an reseacher</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /> </p>
 
@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 👯 I’m a AI enjineer of TENSORACT CO.,LTD [Deligent](https://deligent.me/)
+- 👯 I’m a AI engineer of TENSORACT CO.,LTD [Deligent](https://deligent.me/)
 
 - 🔭 This is the first paper with my team [Integrating Multiple Models For Effective Video Retrieval and Multi-stage Search](https://dl.acm.org/doi/abs/10.1145/3628797.3629022)
 
