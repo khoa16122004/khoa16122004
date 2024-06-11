@@ -8,12 +8,12 @@
 
 </div>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=khoa16122004&show_icons=true&locale=en" alt="khoa16122004" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=khoa16122004&show_icons=true&locale=en" alt="KhoaTN" /></p>
 
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=KhoaTN&label=Profile%20views&color=0e75b6&style=flat" alt="KhoaTN" /> </p>
 
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=khoa16122004" alt="khoa16122004" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=KhoaTN" alt="KhoaTN" /></a> </p>
 
 - 👯 I’m a AI enjineer of TENSORACT CO.,LTD [Deligent](https://deligent.me/)
 
