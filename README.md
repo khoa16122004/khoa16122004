@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Khoa Tran Nhat</h1>
 <h3 align="center">I am a CS student and on the way to becoming an AI researcher</h3>
 
+  <img src="git_stat_0.gif" alt="khoa16122004" />
+
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" />
