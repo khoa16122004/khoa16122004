@@ -5,10 +5,16 @@
 - 🔭 This is the first paper with my team: [Integrating Multiple Models For Effective Video Retrieval and Multi-stage Search](https://dl.acm.org/doi/10.1145/3628797.3629022)
 
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khoa16122004&theme=dracula" alt="khoa16122004" />&nbsp;
-  <img padding-left="20" src="woffy.png" alt="khoa16122004" width="300" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" style="padding-right: 20px;">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=khoa16122004&theme=dracula" alt="khoa16122004" />
+    </td>
+    <td align="center" style="padding-left: 20px;">
+      <img src="woffy.png" alt="khoa16122004" width="300" />
+    </td>
+  </tr>
+</table>
 
 
 
