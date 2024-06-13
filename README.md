@@ -4,7 +4,7 @@
 
 <h3 align="left">Badges</h3>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /></p>
+  <img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" />
   <img src="https://img.shields.io/badge/Machine%20Learning-brightgreen?style=for-the-badge" alt="Machine Learning Badge"/>
   <img src="https://img.shields.io/badge/Deep%20Learning-blue?style=for-the-badge" alt="Deep Learning Badge"/>
   <img src="https://img.shields.io/badge/Data%20Science-yellow?style=for-the-badge" alt="Data Science Badge"/>
