@@ -16,34 +16,6 @@
   </tr>
 </table>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khoa16122004&layout=donut&theme=dracula" alt="Top Langs" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=khoa16122004&show_icons=true&theme=dracula" alt="Anurag's GitHub stats" />
-</p>
-
-
-<p align="left"><img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /></p>
-
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=khoa16122004" alt="khoa16122004" />
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://twitter.com/" target="blank">
-    <img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" />
-  </a>
-</p>
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://fb.com/tran woffy" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="tran woffy" height="30" width="40" />
-  </a>
-</p>
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
   <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
@@ -86,5 +58,28 @@
     <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
   </a>
 </p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khoa16122004&layout=donut&theme=dracula" alt="Top Langs" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api?username=khoa16122004&show_icons=true&theme=dracula" alt="Anurag's GitHub stats" />
+</p>
+
+
+<p align="left"><img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /></p>
+
+<p align="left">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=khoa16122004" alt="khoa16122004" />
+  </a>
+</p>
+
+<p align="left">
+  <a href="https://twitter.com/" target="blank">
+    <img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" />
+  </a>
+</p>
+
+
 
 
