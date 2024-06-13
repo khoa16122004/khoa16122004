@@ -1,10 +1,10 @@
 <h1 align="center">Hi 👋, I'm Khoa Tran Nhat</h1>
 <h3 align="center">I am a CS student and on the way to becoming an AI researcher</h3>
 
-<p align="left"><img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /></p>
 
 <h3 align="left">Badges</h3>
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /></p>
   <img src="https://img.shields.io/badge/Machine%20Learning-brightgreen?style=for-the-badge" alt="Machine Learning Badge"/>
   <img src="https://img.shields.io/badge/Deep%20Learning-blue?style=for-the-badge" alt="Deep Learning Badge"/>
   <img src="https://img.shields.io/badge/Data%20Science-yellow?style=for-the-badge" alt="Data Science Badge"/>
@@ -13,10 +13,7 @@
 
 - 👯 I’m an AI engineer at TENSORACT CO., LTD [Deligent](https://deligent.me/)
 - 🔭 This is the first paper with my team: [Integrating Multiple Models For Effective Video Retrieval and Multi-stage Search](https://dl.acm.org/doi/10.1145/3628797.3629022)
-- 🌱 I’m currently learning **Advanced Machine Learning and Deep Learning Techniques**
 - 💬 Ask me about **Artificial Intelligence, Machine Learning, and Computer Vision**
-- 📫 How to reach me: **khoa16122004@example.com**
-- 📄 Know about my experiences [here](#)
 
 <table align="center">
   <tr>
