@@ -1,8 +1,10 @@
 <h1 align="center">Hi 👋, I'm Khoa Tran Nhat</h1>
+
 <p align="center">
 <img width="100%" align="center" src="git_animation.gif" alt="khoa16122004" />
 </p>
 
+\\
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" />
