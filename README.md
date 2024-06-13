@@ -21,4 +21,7 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khoa16122004&layout=donut) &nbsp; &nbsp; ![Khoa16122004's GitHub stats](https://github-readme-stats.vercel.app/api?username=khoa16122004&show_icons=true&locale=en)
 
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/anuraghazra/github-readme-stats)
+
+
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=khoa16122004&" alt="khoa16122004" /></p>
