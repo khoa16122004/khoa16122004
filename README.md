@@ -1,6 +1,4 @@
 <h1 align="center">Hi 👋, I'm Khoa Tran Nhat</h1>
-<h3 align="center">I am a CS student and on the way to becoming an AI researcher</h3>
-
 <p align="center">
 <img width="50%" align="center" src="git_animation.gif" alt="khoa16122004" />
 </p>
