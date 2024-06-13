@@ -1,6 +1,27 @@
 <h1 align="center">Hi 👋, I'm Khoa Tran Nhat</h1>
-<h3 align="left">I am a CS student and on the way to become a AI an reseacher</h3>
-<p align="right"; width=50%;"><img src="woffy.png" alt="khoa16122004" /></p>
+<h3 align="left">I am a CS student and on the way to become an AI researcher</h3>
+
+- 👯 I’m an AI engineer of TENSORACT CO.,LTD [Deligent](https://deligent.me/)
+- 🔭 This is the first paper with my team: Integrating Multiple Models For Effective Video Retrieval and Multi-stage Search
+
+<div align="right">
+    <img src="woffy.png" alt="khoa16122004" style="width:50%; animation: float 3s ease-in-out infinite;">
+</div>
+
+<style>
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+</style>
+
 
 
 <p align="center"; width=100%;"><img src="https://github-readme-streak-stats.herokuapp.com/?user=khoa16122004&theme=dracula" alt="khoa16122004" /></p>
@@ -11,9 +32,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 👯 I’m a AI engineer of TENSORACT CO.,LTD [Deligent](https://deligent.me/)
 
-- 🔭 This is the first paper with my team [Integrating Multiple Models For Effective Video Retrieval and Multi-stage Search](https://dl.acm.org/doi/abs/10.1145/3628797.3629022)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
