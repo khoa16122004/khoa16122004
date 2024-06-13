@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Khoa Tran Nhat</h1>
 <h3 align="center">I am a CS student and on the way to becoming an AI researcher</h3>
 
+<p align="left"><img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /></p>
+
 - 👯 I’m an AI engineer at TENSORACT CO., LTD [Deligent](https://deligent.me/)
 - 🔭 This is the first paper with my team: [Integrating Multiple Models For Effective Video Retrieval and Multi-stage Search](https://dl.acm.org/doi/10.1145/3628797.3629022)
 
@@ -66,7 +68,6 @@
 </p>
 
 
-<p align="left"><img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /></p>
 
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
