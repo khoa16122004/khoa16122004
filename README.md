@@ -1,8 +1,7 @@
 <h1 align="center">Hi 👋, I'm Khoa Tran Nhat</h1>
 <h3 align="center">I am a CS student and on the way to become a AI an reseacher</h3>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=khoa16122004&theme=dracula" alt="khoa16122004" /></p>
-
+<p style="display: flex; justify-content: center;"><img src="https://github-readme-streak-stats.herokuapp.com/?user=khoa16122004&theme=dracula" alt="khoa16122004" /></p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /> </p>
 
