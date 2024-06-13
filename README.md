@@ -4,23 +4,8 @@
 - 👯 I’m an AI engineer of TENSORACT CO.,LTD [Deligent](https://deligent.me/)
 - 🔭 This is the first paper with my team: Integrating Multiple Models For Effective Video Retrieval and Multi-stage Search
 
-<div align="right">
-    <img src="woffy.png" alt="khoa16122004" style="width:50%; animation: float 3s ease-in-out infinite;">
-</div>
+<p align="right"><img src="woffy.png" alt="khoa16122004" width="300" /></p>
 
-<style>
-@keyframes float {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-</style>
 
 
 
