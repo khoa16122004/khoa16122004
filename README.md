@@ -4,9 +4,13 @@
 - 👯 I’m an AI engineer at TENSORACT CO., LTD [Deligent](https://deligent.me/)
 - 🔭 This is the first paper with my team: [Integrating Multiple Models For Effective Video Retrieval and Multi-stage Search](https://dl.acm.org/doi/10.1145/3628797.3629022)
 
-<p align="center"><img src="woffy.png" alt="khoa16122004" width="300" /></p>
 
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=khoa16122004&theme=dracula" alt="khoa16122004" /></p>
+<p align="center">
+  <img src="woffy.png" alt="khoa16122004" width="300" /></p>&nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khoa16122004&theme=dracula" alt="khoa16122004" /></p>
+</p>
+
+
 
 <p align="left"><img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /></p>
 
