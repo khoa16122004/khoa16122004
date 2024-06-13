@@ -16,6 +16,11 @@
   </tr>
 </table>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khoa16122004&layout=donut&theme=dracula" alt="Top Langs" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api?username=khoa16122004&show_icons=true&theme=dracula" alt="Anurag's GitHub stats" />
+</p>
 
 
 <p align="left"><img src="https://komarev.com/ghpvc/?username=khoa16122004&label=Profile%20views&color=0e75b6&style=flat" alt="khoa16122004" /></p>
@@ -82,8 +87,4 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khoa16122004&layout=donut&theme=dracula" alt="Top Langs" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=khoa16122004&show_icons=true&theme=dracula" alt="Anurag's GitHub stats" />
-</p>
+
