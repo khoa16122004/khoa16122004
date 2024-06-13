@@ -1,5 +1,3 @@
-<h1 align="center">Hi 👋, I'm Khoa Tran Nhat</h1>
-
 <p align="center">
 <img width="100%" align="center" src="git_animation.gif" alt="khoa16122004" />
 </p>
