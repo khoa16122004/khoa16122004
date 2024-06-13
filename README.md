@@ -6,8 +6,8 @@
 
 
 <p align="center">
-  <img src="woffy.png" alt="khoa16122004" width="300" /></p>&nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khoa16122004&theme=dracula" alt="khoa16122004" /></p>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khoa16122004&theme=dracula" alt="khoa16122004" />&nbsp;
+  <img src="woffy.png" alt="khoa16122004" width="300" />
 </p>
 
 
