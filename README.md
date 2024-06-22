@@ -69,7 +69,7 @@
 <p align="center">
 <!--   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khoa16122004&layout=donut&theme=dracula" alt="Top Langs" />
   &nbsp; -->
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khoa16122004&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khoa16122004&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
   <img src="https://github-readme-stats.vercel.app/api?username=khoa16122004&show_icons=true&theme=dracula" alt="Anurag's GitHub stats" />
 </p>
 
