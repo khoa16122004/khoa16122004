@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/4efa6d90-3e18-4cae-a154-13a4c3224aa7)<p align="center">
 <img width="100%" align="center" src="git_animation.gif" alt="khoa16122004" />
 </p>
 
