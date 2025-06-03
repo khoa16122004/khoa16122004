@@ -1,4 +1,4 @@
-<p align="center">
+![image](https://github.com/user-attachments/assets/4efa6d90-3e18-4cae-a154-13a4c3224aa7)<p align="center">
 <img width="100%" align="center" src="git_animation.gif" alt="khoa16122004" />
 </p>
 
@@ -11,9 +11,7 @@
   <img src="https://img.shields.io/badge/Artificial%20Intelligence-red?style=for-the-badge" alt="AI Badge"/>
 </p>
 
-- 👯 I’m an AI engineer at TENSORACT CO., LTD [Deligent](https://deligent.me/)
-- 🔭 This is the first paper with my team: [Integrating Multiple Models For Effective Video Retrieval and Multi-stage Search](https://dl.acm.org/doi/10.1145/3628797.3629022)
-- 💬 Ask me about **Artificial Intelligence, Machine Learning, and Computer Vision**
+- 💬 Ask me about **Adversarial Robustness, Machine Learning, and Computer Vision**
 
 <table align="center">
   <tr>
@@ -44,7 +42,7 @@
     <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" alt="fastapi" width="40" height="40"/>
   </a>
   <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/>
+    <img src="https://github.com/user-attachments/assets/1ad89187-2bd5-4711-956a-94321edfb40c" alt="flask" width="40" height="40"/>
   </a>
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
