@@ -9,8 +9,6 @@
   <img src="https://img.shields.io/badge/Artificial%20Intelligence-red?style=for-the-badge" alt="AI Badge"/>
 </p>
 
-- 💬 Ask me about **Adversarial Robustness, Machine Learning, and Computer Vision**
-
 <table align="center">
   <tr>
     <td align="center" style="padding-right: 20px;">
@@ -51,26 +49,34 @@
   <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
   </a>
-  <!-- <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
   </a>
   <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/>
-  </a> -->
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khoa16122004&layout=donut&theme=dracula" alt="Top Langs" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=khoa16122004&show_icons=true&theme=dracula" alt="Anurag's GitHub stats" />
-</p>
-
-<h3 align="left">GitHub Trophies</h3>
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=khoa16122004&theme=dracula" alt="khoa16122004" />
   </a>
 </p>
 
+
+<h3 align="left">🔬 Research Interests</h3>
+
+- Explainable AI (XAI)
+- Medical Vision-Language Models
+- Adversarial Machine Learning
+- Evolutionary Optimization
+- Robust Multimodal Systems
+
+<h3 align="left">🚀 Selected Projects</h3>
+
+- BCOS Attack
+- Medical VLM Benchmark
+- Evolutionary Adversarial Attack
+- Explainability Toolkit
+
+<h3 align="left">📈 Contribution Activity</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khoa16122004/khoa16122004/output/github-contribution-grid-snake.svg" />
+</p>
 
 
