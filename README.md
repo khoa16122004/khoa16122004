@@ -94,10 +94,6 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
   </a>
 </p>
 
-<p align="center">
-  <img src="./github-metrics.svg" />
-</p>
-
 ---
 
 ## 📫 Connect with Me
