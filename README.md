@@ -1,4 +1,4 @@
-<img width="100%" align="center" src="git_animation.gif" alt="khoa16122004" />
+<!-- <img width="100%" align="center" src="git_animation.gif" alt="khoa16122004" /> -->
 </p>
 
 
