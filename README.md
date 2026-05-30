@@ -8,7 +8,6 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
   <img src="woffy.png" width="300"/>
 </p>
 
----
 
 
 <p align="center">
@@ -16,13 +15,14 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
   <img src="https://img.shields.io/badge/Machine%20Learning-brightgreen?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Deep%20Learning-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Medical%20AI-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Explainable%20AI-blue?style=for-the-badge"/>
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/khoa16122004/khoa16122004/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
----
+
 
 
 <p align="center">
@@ -57,14 +57,4 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/>
   </a>
-</p>
-
----
-
-## 📫 Connect with Me
-
-<p align="center">
-  <a href="https://github.com/khoa16122004">GitHub</a> •
-  <a href="https://www.linkedin.com/">LinkedIn</a> •
-  <a href="mailto:your_email@gmail.com">Email</a>
 </p>
