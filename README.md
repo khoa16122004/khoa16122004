@@ -19,44 +19,12 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
   <img src="https://img.shields.io/badge/Medical%20AI-red?style=for-the-badge"/>
 </p>
 
----
-
-## 📈 GitHub Activity
-
-<p align="center">
-  <img src="./github-metrics.svg" width="95%"/>
-</p>
-
----
-
-## 🐍 Contribution Graph
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/khoa16122004/khoa16122004/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ---
 
-## 🚀 Featured Projects
-
-| Project | Description |
-|----------|------------|
-| BCOS Attack | Adversarial attacks on interpretable neural networks |
-| Medical VLM Benchmark | Robustness evaluation of medical vision-language models |
-| Evolutionary Black-box Attack | Query-efficient adversarial optimization |
-| Explainability Toolkit | Attribution and explanation methods for multimodal models |
-
----
-
-## 🎓 Current Research
-
-- Medical Vision-Language Models
-- Explainable AI (XAI)
-- Adversarial Machine Learning
-- Evolutionary Optimization
-- Robust Multimodal Systems
-
----
 
 ## 🛠 Languages and Tools
 
