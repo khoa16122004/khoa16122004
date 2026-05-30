@@ -10,7 +10,6 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
 
 ---
 
-## 🔬 Research Interests
 
 <p align="center">
   <img src="https://img.shields.io/badge/Adversarial%20Robustness-brightgreen?style=for-the-badge"/>
@@ -25,8 +24,6 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
 
 ---
 
-
-## 🛠 Languages and Tools
 
 <p align="center">
   <a href="https://www.python.org">
