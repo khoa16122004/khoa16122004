@@ -58,22 +58,7 @@
 </p>
 
 
-<h3 align="left">🔬 Research Interests</h3>
 
-- Explainable AI (XAI)
-- Medical Vision-Language Models
-- Adversarial Machine Learning
-- Evolutionary Optimization
-- Robust Multimodal Systems
-
-<h3 align="left">🚀 Selected Projects</h3>
-
-- BCOS Attack
-- Medical VLM Benchmark
-- Evolutionary Adversarial Attack
-- Explainability Toolkit
-
-<h3 align="left">📈 Contribution Activity</h3>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/khoa16122004/khoa16122004/output/github-contribution-grid-snake.svg" />
