@@ -11,8 +11,6 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
 <!-- SCHOLAR-PAPERS:START -->
 ## Latest Papers
 
-Source: [Google Scholar](https://scholar.google.com/citations?user=H8LRCN8AAAAJ&hl=en)
-
 - [Rethinking Adversarial Robustness: The Role of Input Transformations](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H8LRCN8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=H8LRCN8AAAAJ:UeHWp8X0CEIC)
   - HTM Nguyen, K Tran, QM Phan, NH Luong | 2025 RIVF International Conference on Computing and Communication …, 2025 | 2025
 - [Enhancing Endoscopic Image Retrieval via Self-Supervised Learning and Large VLM-Based Re-ranking](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H8LRCN8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=H8LRCN8AAAAJ:qjMakFHDy7sC)
