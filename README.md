@@ -5,7 +5,7 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
 </h3>
 
 <p align="center">
-  <img src="woffy.png" width="300"/>
+  <img src="woffy.png" width="500"/>
 </p>
 
 
