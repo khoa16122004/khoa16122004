@@ -14,6 +14,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -27,8 +30,17 @@ jobs:
           SCHOLAR_MAX_PAPERS: '5'
         run: python scripts/update_scholar_readme.py
 
-      - name: Commit updated README
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'docs: refresh Google Scholar papers'
-          file_pattern: README.md
+      - name: Commit and push README update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- README.md; then
+            echo "No README changes to commit."
+            exit 0
+          fi
+
+          git add README.md
+          git commit -m "docs: refresh Google Scholar papers"
+          git pull --rebase origin main
+          git push origin HEAD:main
