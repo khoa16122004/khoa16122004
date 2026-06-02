@@ -1,0 +1,42 @@
+{
+  "author_id": "H8LRCN8AAAAJ",
+  "lang": "en",
+  "updated_at": "2026-06-02T10:21:43.273894+00:00",
+  "papers": [
+    {
+      "title": "Rethinking Adversarial Robustness: The Role of Input Transformations",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H8LRCN8AAAAJ&pagesize=5&sortby=pubdate&citation_for_view=H8LRCN8AAAAJ:UeHWp8X0CEIC",
+      "authors": "HTM Nguyen, K Tran, QM Phan, NH Luong",
+      "venue": "2025 RIVF International Conference on Computing and Communication …, 2025",
+      "year": "2025"
+    },
+    {
+      "title": "Enhancing Endoscopic Image Retrieval via Self-Supervised Learning and Large VLM-Based Re-ranking",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H8LRCN8AAAAJ&pagesize=5&sortby=pubdate&citation_for_view=H8LRCN8AAAAJ:qjMakFHDy7sC",
+      "authors": "K Tran, L Ly, DK Ho, NH Luong",
+      "venue": "Proceedings of the 33rd ACM International Conference on Multimedia, 14190-14196, 2025",
+      "year": "2025"
+    },
+    {
+      "title": "Evolutionary Black-box Patch Attacks on Face Verification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H8LRCN8AAAAJ&pagesize=5&sortby=pubdate&citation_for_view=H8LRCN8AAAAJ:9yKSN-GCB0IC",
+      "authors": "K Tran, L Ly, NH Luong",
+      "venue": "Proceedings of the Genetic and Evolutionary Computation Conference Companion …, 2025",
+      "year": "2025"
+    },
+    {
+      "title": "Addressing ambiguous queries in video retrieval with advanced temporal search",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H8LRCN8AAAAJ&pagesize=5&sortby=pubdate&citation_for_view=H8LRCN8AAAAJ:d1gkVwhDpl0C",
+      "authors": "BT Gia, TBC Khanh, TLT Thanh, K Tran, HH Trong, TT Doan, K Le, T Do, ...",
+      "venue": "International Symposium on Information and Communication Technology, 167-180, 2024",
+      "year": "2024"
+    },
+    {
+      "title": "Adversarial Robustness of Medical Image Classifiers via Denoised Smoothing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H8LRCN8AAAAJ&pagesize=5&sortby=pubdate&citation_for_view=H8LRCN8AAAAJ:u-x6o8ySG0sC",
+      "authors": "K Tran, L Ly, NH Luong",
+      "venue": "International Symposium on Information and Communication Technology, 42-56, 2024",
+      "year": "2024"
+    }
+  ]
+}
