@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '0 2 1 * *'
 
+concurrency:
+  group: update-scholar-readme
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
