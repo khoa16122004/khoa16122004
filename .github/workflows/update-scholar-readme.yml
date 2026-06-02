@@ -35,12 +35,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet -- README.md; then
-            echo "No README changes to commit."
+          if git diff --quiet -- README.md data/scholar-cache.json; then
+            echo "No README or cache changes to commit."
             exit 0
           fi
 
-          git add README.md
+          git add README.md data/scholar-cache.json
           git commit -m "docs: refresh Google Scholar papers"
           git pull --rebase origin main
           git push origin HEAD:main
