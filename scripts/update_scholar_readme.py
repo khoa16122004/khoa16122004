@@ -160,16 +160,40 @@ def render_section(papers: List[Paper]) -> str:
         START_MARKER,
         "## Latest Papers",
         "",
-        f"Source: [Google Scholar](https://scholar.google.com/citations?user={AUTHOR_ID}&hl={LANG})",
+        f"<p>Auto-updated from <a href=\"https://scholar.google.com/citations?user={AUTHOR_ID}&hl={LANG}\">Google Scholar</a></p>",
+        "",
+        "<table>",
+        "  <thead>",
+        "    <tr>",
+        "      <th align=\"left\">Year</th>",
+        "      <th align=\"left\">Publication</th>",
+        "    </tr>",
+        "  </thead>",
+        "  <tbody>",
         "",
     ]
     for paper in papers:
-        meta_parts = [part for part in [paper.authors, paper.venue, paper.year] if part]
-        meta = " | ".join(meta_parts)
-        lines.append(f"- [{paper.title}]({paper.link})")
-        if meta:
-            lines.append(f"  - {meta}")
-    lines.extend(["", END_MARKER])
+        title = html.escape(paper.title)
+        link = html.escape(paper.link, quote=True)
+        authors = html.escape(paper.authors)
+        venue = html.escape(paper.venue)
+        year = html.escape(paper.year or "-")
+
+        details = [f"<a href=\"{link}\"><strong>{title}</strong></a>"]
+        if authors:
+            details.append(f"<sub>{authors}</sub>")
+        if venue:
+            details.append(f"<br/><sub><em>{venue}</em></sub>")
+
+        lines.extend(
+            [
+                "    <tr>",
+                f"      <td valign=\"top\"><strong>{year}</strong></td>",
+                f"      <td>{''.join(details)}</td>",
+                "    </tr>",
+            ]
+        )
+    lines.extend(["  </tbody>", "</table>", "", END_MARKER])
     return "\n".join(lines)
 
 
