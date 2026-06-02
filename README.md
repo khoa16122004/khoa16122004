@@ -11,7 +11,6 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
 <!-- SCHOLAR-PAPERS:START -->
 ## Latest Papers
 
-<p>Auto-updated from <a href="https://scholar.google.com/citations?user=H8LRCN8AAAAJ&hl=en">Google Scholar</a></p>
 
 <table>
   <thead>
