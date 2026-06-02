@@ -18,6 +18,7 @@ MAX_PAPERS = int(os.environ.get("SCHOLAR_MAX_PAPERS", "5"))
 README_PATH = Path(os.environ.get("README_PATH", "README.md"))
 START_MARKER = "<!-- SCHOLAR-PAPERS:START -->"
 END_MARKER = "<!-- SCHOLAR-PAPERS:END -->"
+STRICT_FETCH = os.environ.get("STRICT_SCHOLAR_FETCH", "false").lower() == "true"
 
 
 @dataclass
@@ -216,14 +217,28 @@ def update_readme(section: str) -> None:
     README_PATH.write_text(updated, encoding="utf-8")
 
 
+def should_skip_fetch_error(exc: Exception) -> bool:
+    if STRICT_FETCH:
+        return False
+
+    if isinstance(exc, HTTPError):
+        return exc.code in {403, 429}
+
+    return isinstance(exc, (URLError, TimeoutError))
+
+
 def main() -> int:
     try:
         papers = fetch_recent_papers()
         update_readme(render_section(papers))
-    except (HTTPError, URLError, TimeoutError) as exc:
-        print(f"Network error while fetching Google Scholar: {exc}", file=sys.stderr)
-        return 1
     except Exception as exc:
+        if should_skip_fetch_error(exc):
+            print(
+                f"Skipping README update because Google Scholar blocked or timed out: {exc}",
+                file=sys.stderr,
+            )
+            return 0
+
         print(f"Failed to update README from Google Scholar: {exc}", file=sys.stderr)
         return 1
 
