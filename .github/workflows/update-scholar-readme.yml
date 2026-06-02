@@ -3,7 +3,7 @@ name: Update Scholar README
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 2 1 * *'
 
 permissions:
   contents: write
