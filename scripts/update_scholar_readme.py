@@ -143,14 +143,7 @@ def render_section(papers: List[Paper], updated_at: str | None = None, source_la
         "",
         f"<p>Source: <a href=\"https://scholar.google.com/citations?user={AUTHOR_ID}&hl={LANG}\">{source_label}</a></p>",
         "",
-        "<table>",
-        "<thead>",
-        "<tr>",
-        "<th align=\"left\">Year</th>",
-        "<th align=\"left\">Publication</th>",
-        "</tr>",
-        "</thead>",
-        "<tbody>",
+        "<ul>",
     ]
     for paper in papers:
         title = html.escape(paper.title)
@@ -159,21 +152,18 @@ def render_section(papers: List[Paper], updated_at: str | None = None, source_la
         venue = html.escape(paper.venue)
         year = html.escape(paper.year or "-")
 
-        details = [f"<a href=\"{link}\"><strong>{title}</strong></a>"]
+        details = [f"<strong>{year}</strong> - <a href=\"{link}\">{title}</a>"]
         if authors:
-            details.append(f"<sub>{authors}</sub>")
+            details.append(f"<br/><sub>{authors}</sub>")
         if venue:
             details.append(f"<br/><sub><em>{venue}</em></sub>")
 
         lines.extend(
             [
-                "<tr>",
-                f"<td valign=\"top\"><strong>{year}</strong></td>",
-                f"<td>{''.join(details)}</td>",
-                "</tr>",
+                f"<li>{''.join(details)}</li>",
             ]
         )
-    lines.extend(["</tbody>", "</table>"])
+    lines.append("</ul>")
     if updated_at:
         lines.extend(["", f"<sub>Last successful sync: {html.escape(updated_at)}</sub>"])
     lines.extend(["", END_MARKER])
