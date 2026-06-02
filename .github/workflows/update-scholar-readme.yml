@@ -32,6 +32,7 @@ jobs:
           SCHOLAR_USER_ID: H8LRCN8AAAAJ
           SCHOLAR_LANG: en
           SCHOLAR_MAX_PAPERS: '5'
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: python scripts/update_scholar_readme.py
 
       - name: Commit and push README update

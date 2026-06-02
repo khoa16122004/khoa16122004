@@ -7,10 +7,10 @@ import re
 import sys
 from datetime import datetime, timezone
 from dataclasses import dataclass
-from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, List
 from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 
@@ -19,6 +19,8 @@ LANG = os.environ.get("SCHOLAR_LANG", "en")
 MAX_PAPERS = int(os.environ.get("SCHOLAR_MAX_PAPERS", "5"))
 README_PATH = Path(os.environ.get("README_PATH", "README.md"))
 CACHE_PATH = Path(os.environ.get("SCHOLAR_CACHE_PATH", "data/scholar-cache.json"))
+SERPAPI_API_KEY = os.environ.get("SERPAPI_API_KEY", "")
+SERPAPI_ENDPOINT = "https://serpapi.com/search.json"
 START_MARKER = "<!-- SCHOLAR-PAPERS:START -->"
 END_MARKER = "<!-- SCHOLAR-PAPERS:END -->"
 STRICT_FETCH = os.environ.get("STRICT_SCHOLAR_FETCH", "false").lower() == "true"
@@ -50,98 +52,6 @@ class Paper:
             venue=str(data.get("venue", "")),
             year=str(data.get("year", "")),
         )
-
-
-class ScholarHTMLParser(HTMLParser):
-    def __init__(self) -> None:
-        super().__init__()
-        self.papers: List[Paper] = []
-        self._in_row = False
-        self._row_depth = 0
-        self._capture_title = False
-        self._capture_authors = False
-        self._capture_venue = False
-        self._capture_year = False
-        self._meta_div_index = 0
-        self._current_title: List[str] = []
-        self._current_authors: List[str] = []
-        self._current_venue: List[str] = []
-        self._current_year: List[str] = []
-        self._current_link = ""
-
-    def handle_starttag(self, tag: str, attrs) -> None:
-        attrs_dict = dict(attrs)
-        class_name = attrs_dict.get("class", "")
-
-        if tag == "tr" and "gsc_a_tr" in class_name:
-            self._in_row = True
-            self._row_depth = 1
-            self._meta_div_index = 0
-            self._current_title = []
-            self._current_authors = []
-            self._current_venue = []
-            self._current_year = []
-            self._current_link = ""
-            return
-
-        if not self._in_row:
-            return
-
-        if tag == "tr":
-            self._row_depth += 1
-
-        if tag == "a" and "gsc_a_at" in class_name:
-            self._capture_title = True
-            href = attrs_dict.get("href", "")
-            self._current_link = f"https://scholar.google.com{href}" if href else ""
-        elif tag == "div" and class_name == "gs_gray":
-            if self._meta_div_index == 0:
-                self._capture_authors = True
-            elif self._meta_div_index == 1:
-                self._capture_venue = True
-            self._meta_div_index += 1
-        elif tag == "span" and class_name == "gsc_a_h gsc_a_hc gs_ibl":
-            self._capture_year = True
-        elif tag == "td" and class_name == "gsc_a_y":
-            self._capture_year = True
-
-    def handle_endtag(self, tag: str) -> None:
-        if self._capture_title and tag == "a":
-            self._capture_title = False
-        elif self._capture_authors and tag == "div":
-            self._capture_authors = False
-        elif self._capture_venue and tag == "div":
-            self._capture_venue = False
-        elif self._capture_year and tag in {"span", "td"}:
-            self._capture_year = False
-
-        if self._in_row and tag == "tr":
-            self._row_depth -= 1
-            if self._row_depth == 0:
-                self._in_row = False
-                title = normalize_text("".join(self._current_title))
-                if title:
-                    self.papers.append(
-                        Paper(
-                            title=title,
-                            link=self._current_link,
-                            authors=normalize_text("".join(self._current_authors)),
-                            venue=normalize_text("".join(self._current_venue)),
-                            year=normalize_text("".join(self._current_year)),
-                        )
-                    )
-
-    def handle_data(self, data: str) -> None:
-        if self._capture_title:
-            self._current_title.append(data)
-        elif self._capture_authors:
-            self._current_authors.append(data)
-        elif self._capture_venue:
-            self._current_venue.append(data)
-        elif self._capture_year:
-            self._current_year.append(data)
-
-
 def normalize_text(value: str) -> str:
     value = html.unescape(value)
     value = re.sub(r"\s+", " ", value)
@@ -149,32 +59,56 @@ def normalize_text(value: str) -> str:
 
 
 def fetch_recent_papers() -> List[Paper]:
-    url = (
-        "https://scholar.google.com/citations"
-        f"?user={AUTHOR_ID}&hl={LANG}&cstart=0&pagesize=100&sortby=pubdate"
+    if not SERPAPI_API_KEY:
+        raise RuntimeError("SERPAPI_API_KEY is not configured")
+
+    query = urlencode(
+        {
+            "engine": "google_scholar_author",
+            "author_id": AUTHOR_ID,
+            "hl": LANG,
+            "sort": "pubdate",
+            "num": min(MAX_PAPERS, 100),
+            "start": 0,
+            "api_key": SERPAPI_API_KEY,
+            "output": "json",
+        }
     )
+    url = f"{SERPAPI_ENDPOINT}?{query}"
     request = Request(
         url,
         headers={
-            "User-Agent": (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/125.0.0.0 Safari/537.36"
-            ),
-            "Accept-Language": "en-US,en;q=0.9",
+            "Accept": "application/json",
         },
     )
     with urlopen(request, timeout=30) as response:
         content_type = response.headers.get("Content-Type", "")
-        if "text/html" not in content_type:
+        if "application/json" not in content_type:
             raise RuntimeError(f"Unexpected content type: {content_type}")
-        html_text = response.read().decode("utf-8", errors="replace")
+        payload = json.loads(response.read().decode("utf-8", errors="replace"))
 
-    parser = ScholarHTMLParser()
-    parser.feed(html_text)
-    papers = [paper for paper in parser.papers if paper.link]
+    if payload.get("error"):
+        raise RuntimeError(str(payload["error"]))
+
+    papers = []
+    for article in payload.get("articles", []):
+        title = normalize_text(str(article.get("title", "")))
+        link = str(article.get("link", "")).strip()
+        if not title or not link:
+            continue
+
+        papers.append(
+            Paper(
+                title=title,
+                link=link,
+                authors=normalize_text(str(article.get("authors", ""))),
+                venue=normalize_text(str(article.get("publication", ""))),
+                year=normalize_text(str(article.get("year", ""))),
+            )
+        )
+
     if not papers:
-        raise RuntimeError("No papers found in Google Scholar HTML response")
+        raise RuntimeError("No papers found in SerpAPI response")
     return papers[:MAX_PAPERS]
 
 
@@ -271,7 +205,10 @@ def should_skip_fetch_error(exc: Exception) -> bool:
         return False
 
     if isinstance(exc, HTTPError):
-        return exc.code in {403, 429}
+        return exc.code in {401, 403, 429}
+
+    if isinstance(exc, RuntimeError):
+        return "SERPAPI_API_KEY" in str(exc) or "searches limit" in str(exc).lower()
 
     return isinstance(exc, (URLError, TimeoutError))
 
@@ -281,28 +218,28 @@ def main() -> int:
         papers = fetch_recent_papers()
         write_cache(papers)
         cached_papers, updated_at = read_cache()
-        update_readme(render_section(cached_papers, updated_at))
+        update_readme(render_section(cached_papers, updated_at, "Google Scholar via SerpAPI"))
     except Exception as exc:
         if should_skip_fetch_error(exc):
             cached_papers, updated_at = read_cache()
             if cached_papers:
                 update_readme(render_section(cached_papers, updated_at, "Google Scholar cache"))
                 print(
-                    f"Used cached Scholar data because live fetch was blocked or timed out: {exc}",
+                    f"Used cached Scholar data because SerpAPI fetch was unavailable: {exc}",
                     file=sys.stderr,
                 )
                 return 0
 
             print(
-                f"Skipping README update because Google Scholar blocked or timed out and no cache is available: {exc}",
+                f"Skipping README update because SerpAPI fetch was unavailable and no cache is available: {exc}",
                 file=sys.stderr,
             )
             return 0
 
-        print(f"Failed to update README from Google Scholar: {exc}", file=sys.stderr)
+        print(f"Failed to update README from SerpAPI: {exc}", file=sys.stderr)
         return 1
 
-    print(f"Updated {README_PATH} with {len(cached_papers)} papers from Google Scholar.")
+    print(f"Updated {README_PATH} with {len(cached_papers)} papers from SerpAPI.")
     return 0
 
 
