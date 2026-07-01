@@ -21,6 +21,6 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
 <li><strong>2024</strong> - <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=H8LRCN8AAAAJ&amp;pagesize=5&amp;sortby=pubdate&amp;citation_for_view=H8LRCN8AAAAJ:u-x6o8ySG0sC">Adversarial Robustness of Medical Image Classifiers via Denoised Smoothing</a><br/><sub>K Tran, L Ly, NH Luong</sub><br/><sub><em>International Symposium on Information and Communication Technology, 42-56, 2024</em></sub></li>
 </ul>
 
-<sub>Last successful sync: 2026-06-02T10:27:54.544484+00:00</sub>
+<sub>Last successful sync: 2026-07-01T03:11:54.361408+00:00</sub>
 
 <!-- SCHOLAR-PAPERS:END -->
