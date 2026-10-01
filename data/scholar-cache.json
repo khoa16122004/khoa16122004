@@ -1,8 +1,15 @@
 {
   "author_id": "H8LRCN8AAAAJ",
   "lang": "en",
-  "updated_at": "2026-09-01T02:16:23.233918+00:00",
+  "updated_at": "2026-10-01T02:25:23.492226+00:00",
   "papers": [
+    {
+      "title": "On the Instability of Saliency Maps under Sparse Perturbations",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H8LRCN8AAAAJ&pagesize=5&sortby=pubdate&citation_for_view=H8LRCN8AAAAJ:Tyk-4Ss8FVUC",
+      "authors": "K Tran, TH Nguyen, QM Phan, K Tran, TD Mai, VH Duong, NH Luong",
+      "venue": "2026 International Conference on Multimedia Analysis and Pattern Recognition …, 2026",
+      "year": "2026"
+    },
     {
       "title": "Investigating Robustness in Vision-Language Models via Adversarial Prompt Illumination",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H8LRCN8AAAAJ&pagesize=5&sortby=pubdate&citation_for_view=H8LRCN8AAAAJ:zYLM7Y9cAGgC",
@@ -30,13 +37,6 @@
       "authors": "K Tran, L Ly, NH Luong",
       "venue": "Proceedings of the Genetic and Evolutionary Computation Conference Companion …, 2025",
       "year": "2025"
-    },
-    {
-      "title": "Addressing ambiguous queries in video retrieval with advanced temporal search",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H8LRCN8AAAAJ&pagesize=5&sortby=pubdate&citation_for_view=H8LRCN8AAAAJ:d1gkVwhDpl0C",
-      "authors": "BT Gia, TBC Khanh, TLT Thanh, K Tran, HH Trong, TT Doan, K Le, T Do, ...",
-      "venue": "International Symposium on Information and Communication Technology, 167-180, 2024",
-      "year": "2024"
     }
   ]
 }
