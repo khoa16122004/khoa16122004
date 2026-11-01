@@ -21,6 +21,6 @@ AI Researcher • Medical Vision-Language Models • Adversarial Robustness
 <li><strong>2025</strong> - <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=H8LRCN8AAAAJ&amp;pagesize=5&amp;sortby=pubdate&amp;citation_for_view=H8LRCN8AAAAJ:9yKSN-GCB0IC">Evolutionary Black-box Patch Attacks on Face Verification</a><br/><sub>K Tran, L Ly, NH Luong</sub><br/><sub><em>Proceedings of the Genetic and Evolutionary Computation Conference Companion …, 2025</em></sub></li>
 </ul>
 
-<sub>Last successful sync: 2026-10-01T02:25:23.492226+00:00</sub>
+<sub>Last successful sync: 2026-11-01T02:09:38.355244+00:00</sub>
 
 <!-- SCHOLAR-PAPERS:END -->
